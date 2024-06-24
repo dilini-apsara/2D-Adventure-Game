@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="icon" type="image/svg+xml" href="/vite.svg"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>2d Game</title>
+    <link rel="stylesheet" href="./style.css">
+    <script type="module" src="./main.js"></script>
+</head>
+<body>
+<div id="overplay">
+    <h1>Loading Game Assets</h1>
+    <div id="progress-bar">
+        <div id="bar"></div>
+    </div>
+</div>
+<h1 id="score-display">SCORE <span> 0 </span></h1>
+<div id="character"></div>
+<div id="attacker1"></div>
+<div id="attacker2"></div>
+<div id="gift"></div>
+<div id="bird"></div>
+<audio id="bird-sound" src="/sound/bird/mixkit-big-wild-eagle-calling-70.mp3"></audio>
+<div id="platform">
+    <div id="tile-1"></div>
+    <div class="tile-2"></div>
+</div>
+<div id="start-screen">
+    <h2>WELCOME TO DEP-12 <br><span>2D</span>GAME</h2>
+    <button type="button">PLAY</button>
+    <div id="footer">Copyright &copy; 2024 DEP-12. All Rights Reserved.</div>
+</div>
+<div id="game-over">
+    <div id="game-over-msg">
+        <h2 id="score">SCORE <span>0</span></h2>
+        <h2>GAME OVER</h2>
+        <div id="btn-wrapper">
+            <button id="btn-exit" type="button">EXIT</button>
+            <button id="btn-replay" type="button">REPLAY</button>
+        </div>
+    </div>
+    <audio id="music-game-over" src="/sound/Dungeon-Theme.mp3"></audio>
+</div>
+<audio id="music-theme" src="/sound/byte-blast-8-bit-arcade-music-background-music-for-video-208780.mp3"></audio>
+</body>
+</html>
